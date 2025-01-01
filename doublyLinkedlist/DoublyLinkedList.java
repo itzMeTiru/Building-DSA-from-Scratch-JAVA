@@ -1,4 +1,4 @@
-package DoublyLinkedlist;
+package doublyLinkedlist;
 
 public class DoublyLinkedList {
 
@@ -23,76 +23,6 @@ public class DoublyLinkedList {
         length = 1;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public void printList(){
         Node temp = head;
