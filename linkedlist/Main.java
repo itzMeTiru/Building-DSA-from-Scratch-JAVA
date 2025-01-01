@@ -3,87 +3,71 @@ package linkedlist;
 public class Main {
 
     public static void main(String[] args) {
-//        LinkedList myLinkedList = new LinkedList(4);
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
-//        System.out.println("\nLinked List:");
-//        myLinkedList.printList();
 
-////LL-Append
-//        LinkedList myLinkedList = new LinkedList(1);
-//        myLinkedList.append(2);
-//        myLinkedList.append(3);
-//        myLinkedList.append(4);
-//        myLinkedList.append(5);
-//        myLinkedList.printList();
+        /*
+        //Example usecse
+        LinkedList list = new LinkedList(10);
 
-//// LL-RemoveLast
-//        LinkedList myLinkedList = new LinkedList(1);
-//        myLinkedList.append(2);
-//        myLinkedList.printList();
-//
-//       // (2) Items - Returns 2 Node
-//        System.out.println(myLinkedList.removeLast().value);
-//        // (1) Item - Returns 1 Node
-//        System.out.println(myLinkedList.removeLast().value);
-//        // (0) Items - Returns null
-//        System.out.println(myLinkedList.removeLast());
+        //initial stage
+        list.printList();   // Output: 10
+        list.getHead();     // Output: Head: 10
+        list.getTail();     // Output: Tail: 10
+        list.getLength();   // Output: Length: 1
 
+        //Appending Values
+        list.append(20);
+        list.append(30);
+        list.printList();   // Output: 10, 20, 30
+        list.getTail();     // Output: Tail: 30
+        list.getLength();   // Output: Length: 3
 
-////LL -prepend
-//    LinkedList myLinkedList = new LinkedList(2);
-//    myLinkedList.append(3);
-//
-//    myLinkedList.printList();
-//
-//    myLinkedList.prepend(1);
-//
-//    myLinkedList.printList();
-//
-//    }
+        //Prepending a Value
+        list.prepend(5);
+        list.printList();   // Output: 5, 10, 20, 30
+        list.getHead();     // Output: Head: 5
+        list.getLength();   // Output: Length: 4
 
-////LL - remove first
-//        LinkedList myLinkedList = new LinkedList(2);
-//        myLinkedList.append(1);
-//
-//        // (2) Items - Returns 2 Node
-//        System.out.println(myLinkedList.removeFirst().value);
-//        // (1) Item - Returns 1 Node
-//        System.out.println(myLinkedList.removeFirst().value);
-//        // (0) Items - Returns null
-//        System.out.println(myLinkedList.removeFirst());
-//    }
+        //Removing the First Node
+        list.removeFirst();
+        list.printList();   // Output: 10, 20, 30
+        list.getHead();     // Output: Head: 10
+        list.getLength();   // Output: Length: 3
 
-////LL-get
-//        LinkedList myLinkedList = new LinkedList(1);
-//        myLinkedList.append(2);
-//        myLinkedList.append(3);
-//        myLinkedList.printList();
-//
-//        System.out.println("node 0: " + myLinkedList.get(0).value);
-//        System.out.println("node 1: " + myLinkedList.get(1).value);
-//        System.out.println("node 2: " + myLinkedList.get(2).value);
-//    }
+        //Removing the Last Node
+        list.removeLast();
+        list.printList();   // Output: 10, 20
+        list.getTail();     // Output: Tail: 20
+        list.getLength();   // Output: Length: 2
 
-////LL-set
-//        LinkedList myLinkedList = new LinkedList(1);
-//        myLinkedList.append(2);
-//        myLinkedList.append(3);
-//
-//        myLinkedList.set(1, 20);
-//        myLinkedList.printList();
+        //Getting a Node by Index
+        LinkedList.Node nodeAtIndex1 = list.get(1);
+        if (nodeAtIndex1 != null) {
+            System.out.println("Node at index 1: " + nodeAtIndex1.value); // Output: Node at index 1: 20
+        }
 
-////LL-insert
-//        LinkedList myLinkedList = new LinkedList(1);
-//        myLinkedList.append(2);
-//        myLinkedList.append(3);
-//
-//        myLinkedList.insert(2,55);
-//
-//        myLinkedList.printList();
+        //Setting a Value at an Index
+        list.set(1, 25);
+        list.printList();   // Output: 10, 25
 
+        //Inserting a Value at an Index
+        list.insert(1, 15);
+        list.printList();   // Output: 10, 15, 25
 
+        //Removing a Node at an Index
+        list.remove(1);
+        list.printList();   // Output: 10, 25
 
+        //Reversing the List
+        list.reverse();
+        list.printList();   // Output: 25, 10
+
+        //Clearing the List
+        list.makeEmpty();
+        list.printList();   // Output: (empty list)
+        list.getHead();     // Output: Head: null
+        list.getTail();     // Output: Tail: null
+        list.getLength();   // Output: Length: 0
+    }
+    */
     }
 }
