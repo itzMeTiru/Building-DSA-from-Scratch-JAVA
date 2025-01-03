@@ -1,9 +1,6 @@
 package queue;
 
-
-
 public class Queue {
-
     private Node first;
     private Node last;
     private int length;
